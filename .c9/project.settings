@@ -5,6 +5,9 @@
     "extensions": {
         "@aws.profile": "profile:default"
     },
+    "instance": {
+        "@automaticShutdown": "30"
+    },
     "language": {
         "tern_defs": {
             "json()": {
@@ -15,6 +18,9 @@
                     "enabled": true
                 },
                 "jQuery": {
+                    "enabled": true
+                },
+                "semver": {
                     "enabled": true
                 }
             }
